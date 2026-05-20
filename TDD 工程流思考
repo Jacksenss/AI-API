@@ -1,0 +1,14 @@
+关于实作任务的TDD工程流：
+①可以考虑openspec + superpowers + gstack 做结合，具体串联方式要再思考一下
+②使用grill-me
+/grill-me 的缺点是太简单：只提问，不会自动整理计划。
+
+建议这样用：
+
+先用 /grill-me 问透需求；
+让它整理成 PLAN.md；
+清空上下文；
+再让 Agent 按计划执行。
+最好再让它自己 review 一遍，或者用 /brainstorming 交叉 review，检查有没有漏文件、漏依赖、漏测试。
+
+我自己 review 时就发现漏了一个文件。
