@@ -1,3 +1,9 @@
+Loop energien
+实作一个任务之前，考虑好任务目标，任务边界，校验标准
+claude code中可以用/goal or /loop来完成
+实作之前用context7更新一下相关的知识库
+
+
 关于实作任务的TDD工程流：
 ①可以考虑openspec + superpowers + gstack 做结合，具体串联方式要再思考一下
 ②使用grill-me
@@ -12,7 +18,6 @@
 最好再让它自己 review 一遍，或者用 /brainstorming 交叉 review，检查有没有漏文件、漏依赖、漏测试。
 
 我自己 review 时就发现漏了一个文件。
-
 
 ECC的工程flow
 ● ECC（Everything Claude Code）的项目开发标准流程如下：
