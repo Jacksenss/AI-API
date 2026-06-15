@@ -2,6 +2,7 @@ Loop energien
 实作一个任务之前，考虑好任务目标，任务边界，校验标准
 claude code中可以用/goal or /loop来完成
 实作之前用context7更新一下相关的知识库
+用codegraph来做知识图谱，执行任务前借助codegraph工具，任务结束后更新codegraph
 
 
 关于实作任务的TDD工程流：
